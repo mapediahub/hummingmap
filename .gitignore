@@ -1,0 +1,166 @@
+# Node.js
+node_modules
+
+# Image files
+**/*.tiff
+**/*.tif
+**/*.zip
+
+# Lambda deployment package
+package.zip
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage*
+.cache
+nosetests.xml
+*.cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Logs and settings
+*.log*
+local_settings.py
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Documentation
+docs/_build/
+docs/src/api/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Python versions
+.python-version
+
+# Celery
+celerybeat-schedule
+
+# dotenv
+.env
+
+# Virtual environments
+.venv
+venv/
+ENV/
+
+# Project settings
+.spyderproject
+.spyproject
+.ropeproject
+
+# MkDocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+# pytest cache
+.pytest_cache
+
+# Benchmarks
+.benchmarks/
+tests/benchmarks/data/*
+tests/fixtures/mask*
+
+# VS Code
+.vscode/
+
+# macOS files
+.DS_Store
+
+# MongoDB
+db
+
+# Dataset
+**/maptiler_api/datasets
+
+# Grunt
+.grunt
+
+# Vim temporary files
+*~
+.*.sw?
+.cache
+
+# IDE settings
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# React DevTools build
+packages/react-devtools-core/dist
+packages/react-devtools-extensions/chrome/build
+packages/react-devtools-extensions/chrome/*.crx
+packages/react-devtools-extensions/chrome/*.pem
+packages/react-devtools-extensions/firefox/build
+packages/react-devtools-extensions/firefox/*.xpi
+packages/react-devtools-extensions/firefox/*.pem
+packages/react-devtools-extensions/shared/build
+packages/react-devtools-extensions/.tempUserDataDir
+packages/react-devtools-fusebox/dist
+packages/react-devtools-inline/dist
+packages/react-devtools-shell/dist
+packages/react-devtools-timeline/dist
+
+# Miscellaneous
+remote-repo/
+fixtures/dom/public/react-dom.js
+fixtures/dom/public/react.js
+test/the-files-to-test.generated.js
+chrome-user-data
+
+# Output and archive files
+dist
+docs_build
+site_build
+docs.zip
+archive.zip
+.env
+/api/uploads
+/api/export
+/api/__pycache__
+/backend/data

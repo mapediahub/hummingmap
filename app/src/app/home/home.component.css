@@ -1,0 +1,34 @@
+#map {
+    /* margin-top: 80px; */
+    width: 100%;
+    height: 80vh;
+    z-index: 0;
+    /* position: fixed; */
+    /* margin-top: 80px; */
+}
+
+.ontop_btn {
+    position: absolute;
+    top: 20px;
+    /* Adjust as needed */
+    right: 70px;
+    /* Adjust as needed */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Semi-transparent background */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    z-index: 1000;
+    /* Ensures it stays on top */
+}
+
+.ontop_btn label {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.ontop_btn:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
